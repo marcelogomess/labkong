@@ -124,7 +124,7 @@ services:
   #######################################
   flask01:
     container_name: flask01
-    image: celogomess/webservoso:v1
+    image: celogomess/websorvoso:1.0
     restart: unless-stopped
     networks:
       kong-net:
@@ -134,7 +134,7 @@ services:
       
   flask02:
     container_name: flask02
-    image: celogomess/webservoso:v1
+    image: celogomess/websorvoso:1.0
     restart: unless-stopped
     networks:
       kong-net:
@@ -144,7 +144,7 @@ services:
       
   flask03:
     container_name: flask03
-    image: celogomess/webservoso:v1
+    image: celogomess/websorvoso:1.0
     restart: unless-stopped
     networks:
       kong-net:

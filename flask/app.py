@@ -19,7 +19,6 @@ def delay():
     return jsonify(os_data)
 
 
-
 @app.route("/bugado", methods=['GET'])
 def bugado():
     return Response(json.dumps(os_data), status=300, mimetype='application/json')
